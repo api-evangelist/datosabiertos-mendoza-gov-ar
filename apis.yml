@@ -1,0 +1,59 @@
+aid: datosabiertos-mendoza-gov-ar
+name: Mendoza Open Data
+description: >-
+  Mendoza Open Data is a state government open-data portal for Argentina running CKAN.
+  It exposes the CKAN catalog API over approximately 204 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datosabiertos-mendoza-gov-ar/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Open Data Portal
+  - State Government
+  - Argentina
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datosabiertos-mendoza-gov-ar:catalog
+    name: Mendoza Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Mendoza Open Data, ~204 datasets. Base URL https://datosabiertos.mendoza.gov.ar/api/3/action/.
+    humanURL: https://datosabiertos.mendoza.gov.ar
+    baseURL: https://datosabiertos.mendoza.gov.ar/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datosabiertos.mendoza.gov.ar
+      - type: x-api-endpoint
+        url: https://datosabiertos.mendoza.gov.ar/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.7.6'
+common:
+  - type: Website
+    url: https://datosabiertos.mendoza.gov.ar
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datosabiertos-mendoza-gov-ar-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datosabiertos-mendoza-gov-ar-rate-limits.yml
+  - type: FinOps
+    url: finops/datosabiertos-mendoza-gov-ar-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
