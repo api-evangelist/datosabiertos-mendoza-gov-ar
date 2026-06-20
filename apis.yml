@@ -4,7 +4,7 @@ description: >-
   Mendoza Open Data is a state government open-data portal for Argentina running CKAN.
   It exposes the CKAN catalog API over approximately 204 datasets.
 kind: government
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://raw.githubusercontent.com/api-evangelist/datosabiertos-mendoza-gov-ar/refs/heads/main/apis.yml
 tags:
   - Open Data
