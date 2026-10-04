@@ -29,6 +29,9 @@ accessModel:
   method: derived
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/datosabiertos-mendoza-gov-ar.png
 url: https://raw.githubusercontent.com/api-evangelist/datosabiertos-mendoza-gov-ar/refs/heads/main/apis.yml
+x-docs-platform: readthedocs
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-25
 tags:
   - Open Data
   - CKAN
@@ -36,7 +39,7 @@ tags:
   - DCAT
   - Government Data
   - Open Data Portal
-  - State-Government
+  - State Government
   - Argentina
 tags_raw:
   - Open Data
@@ -47,6 +50,7 @@ tags_raw:
   - Open Data Portal
   - State Government
   - Argentina
+  - State-Government
 created: '2026-06-07'
 modified: '2026-06-07'
 specificationVersion: '0.23'
